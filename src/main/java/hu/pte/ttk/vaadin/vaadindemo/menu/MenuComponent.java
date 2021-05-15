@@ -29,6 +29,9 @@ public class MenuComponent extends HorizontalLayout {
             add(user);
         }
 
-
+        Anchor logout = new Anchor();
+        logout.setText("Log out");
+        logout.setHref("/logout");
+        add(logout);
     }
 }
